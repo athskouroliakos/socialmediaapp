@@ -28,7 +28,7 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <h3>SocialMediaApp</h3>
+          <h3> SocialMediaApp</h3>
         </Link>
 
         {isLoading || !user.email ? (
